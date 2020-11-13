@@ -1,0 +1,32 @@
+h1{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: sans-serif;
+    font-style: normal;
+    border-bottom: solid;
+    background-color: lightslategray;opacity: 0.9;
+}
+h2{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-style: bold;
+    border-bottom: solid;
+}
+
+.gbr1{
+    width: 45%;
+    height: 40%;
+}
+
+body{
+    background-image: url(../bromo/6.jpg);
+}
+
+.clr{
+    color: white;
+    text-shadow: 2px 2px black;
+    display: grid;
+    background-color: lightslategray;opacity: 0.9;
+}

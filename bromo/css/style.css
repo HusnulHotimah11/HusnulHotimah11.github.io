@@ -1,0 +1,20 @@
+h3{
+    font-style: oblique;
+    font-size: medium;
+    background-color: white;opacity: 0.7;
+}
+
+body{
+    background-image: url('../bromo2.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.pendaftaran{
+    border: 5px;
+    width: 500px;
+    background-color: lightgray;opacity: 0.8;
+    margin: 100px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
