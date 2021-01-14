@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <h3 ><CENTER>PENDAFTARAN</CENTER></h3>
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <div class="pendaftaran">    
+        <form name="biodata" method="POST" action="../form/form.html">
+            <table>
+                <tr>
+                    <td width="120"><label for="username">Nama</label></td>
+                    <td><input type="text" id="username" name="Nama" placeholder="masukkan nama lengkap" autocomplete="off" required='required'></td>
+                </tr>   
+                <tr>
+                    <td id="jk">Jenis Kelamin</td>
+                    <td>
+                        <input type="radio" id="pria" name="jeniskelamin" value="pria"><label for="pria">pria</label>
+                        <input type="radio" id="wanita" name="jeniskelamin" value="wanita"><label for="wanita">wanita</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tgl">Tanggal Lahir</label></td>
+                    <td><input type="date" id="tgl" name="Tanggal Lahir" autocomplete="off" required='required'></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="adress">Alamat</label></td>
+                    <td><textarea id="adress" name="Alamat" placeholder="masukkan Alamat lengkap" autocomplete="off" required='required'></textarea></td>
+                </tr>
+                <tr> 
+                    <td><label for="nik">No NIK</label></td>
+                    <td><input type="number" id="nik" name="No NIk" placeholder="masukkan NIK lengkap" autocomplete="off" required='required'></td>
+                </tr> 
+                <tr>
+                    <td><label for="hp">No Hp</label></td>
+                    <td><input type="number" id="hp" name="No Hp" placeholder="masukkan No HP" autocomplete="off" required='required'></td>
+                </tr>
+                <tr>
+                    <td><label for="jml">Jumlah Anggota</label></td>
+                    <td><input type="number" id="jml" name="Jumlah Anggota" placeholder="jumlah anggota yang dibawa" autocomplete="off" required='required'></td>
+                </tr>
+                <tr>
+                    <td>Pemesanan Untuk Tanggal</td>
+                    <td><input type="date" id="ord" name="Pemesanan Untuk Tanggal"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="button" onclick="trinput()" value="simpan">
+                        <input type="reset" value="reset">
+
+                    </td>
+                </tr>
+            </table>   
+        </form>    
+        <br><br>
+            <h1> <center> Tabel Pendaftaran </center></h1>
+            <center><table border="1" id='tabelinput'>
+                <tr>
+                    <td>Nama</td>
+                    <td>jeniskelamin</td>
+                    <td>Lahir</td>
+                    <td>Alamat</td>
+                    <td>No NIK</td>
+                    <td>No HP</td>
+                    <td>Jumlah Anggota</td>
+                    <td>Pemesanan Untuk Tanggal</td>
+                </tr>
+            </table></center>
+    </div>
+</body>
+</html>

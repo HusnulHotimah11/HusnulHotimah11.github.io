@@ -1,0 +1,26 @@
+h1{
+    background-color: lightslategray;opacity: 0.9;
+    font-family: serif;
+    font-style: oblique;
+    color:white;
+    text-shadow:2px 2px black ;
+    text-decoration: black;
+    
+}
+
+body{
+    background-image: url(../fasilitas/8.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+}
+h2{
+    display: grid;
+    color: white;
+    text-shadow:2px 2px black;
+    text-align: center;
+    word-spacing: 2%;
+}
+.gambar1{
+    width: 30%;
+    height: 20%;
+}

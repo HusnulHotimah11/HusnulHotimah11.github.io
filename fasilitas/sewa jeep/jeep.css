@@ -1,0 +1,32 @@
+body{
+    background-image: url("../8.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.jeep{
+    background-color: lightslategray;opacity: 0.9;
+}
+
+h1{
+    background-color: lightslategray;opacity: 0.9;
+    font-family: serif;
+    font-style: oblique;
+    color:white;
+    text-shadow:2px 2px black ;
+    text-decoration: black;
+}
+
+h2{
+    display: grid;
+    color: white;
+    text-shadow:2px 2px black;
+    text-align: left;
+    word-spacing: 2%;
+}
+
+
+.gambar2{
+    width: 30%;
+    height: 20%;
+}
